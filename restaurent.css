@@ -1,0 +1,24 @@
+@media (max-width: 100px)
+
+
+
+
+#navbar{
+    display:block;
+    width:auto;
+    background-color: rgb(235, 135, 135);
+    text-decoration:none;
+    
+    }
+    a:hover {
+        background-color: yellow;
+      }
+      a{
+          text-decoration: none;
+          text-shadow: none;
+          text-decoration-color: black;
+          font-family: 'Times New Roman', Times, serif;
+          
+        
+      }
+      
