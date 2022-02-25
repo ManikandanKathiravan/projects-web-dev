@@ -1,0 +1,76 @@
+/*starting of nav bar*/
+
+li {
+    display: inline;
+    /*making lists in inline*/
+  }
+  ul {
+    list-style-type: none;
+    /*bullets none*/
+    margin: 0;
+    padding: 0;
+    /**/
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    /*nav elements stay on left*/
+  }
+  
+  li a {
+    display: block;/*reduce overlaping*/
+    color: rgb(212, 162, 223);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(209, 66, 66);
+    /*hover color*/
+  }
+  .active {
+    background-color: #9b5e93;
+  }
+  /*starting of gallery*/
+  div.gallery {
+    margin: 5px;
+    border: 5px solid rgba(34, 230, 148, 0.103);
+    float: left;
+    width: 180px;
+  }
+  /*gallery hover*/
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /*for heading*/
+  header{
+    background-color: rgb(141, 192, 192);
+    border-left: 25px solid rgb(248, 93, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+  }
+  /*for description*/
+  #description{  background-color: rgb(165, 165, 77);
+    border-left: 25px solid rgb(248, 3, 3);
+
+  }
+  body{
+    background-color: #777;
+  }
+  
